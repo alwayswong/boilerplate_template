@@ -63,32 +63,28 @@ const App = () => {
         </div>
         <ul>
           <li>
-            <img className="mobile-nav-logo" src="/img/logo.png" alt="" />
+            <img className="mobile-nav-logo" src="/Users/jacobwong/Desktop/candymachine-v2-boiler-mint-site-noFLP/src/logo.png" alt="" />
           </li>
           <li>
             <a href="/#link1" onClick={toggleMenu}>
-              Link 1
+              A
             </a>
           </li>
           <li>
             <a href="/#link2" onClick={toggleMenu}>
-              Link 2
+              B
             </a>
           </li>
-          <li>
-            <a href="/#link3" onClick={toggleMenu}>
-              Link 3
-            </a>
-          </li>
+          
           <li>
             <a href="/#link4" onClick={toggleMenu}>
-              Link 4
+              D
             </a>
           </li>
           <li>
             <div className="social-icons">
-              <img className="nav-social" src="/icons/twitter.svg" alt="" />
-              <img className="nav-social" src="/icons/discord.svg" alt="" />
+              
+              <img className="nav-social" src="/icons/discord.svg" alt="twitter.com" />
             </div>
           </li>
         </ul>
@@ -100,20 +96,19 @@ const App = () => {
         <div className="nav-container">
           <img className="nav-logo" src="/img/logo.png" alt="" />
           <a className="hide-800" href="/#link1">
-            Link 1
+            Linky 1
           </a>
           <a className="hide-800" href="/#link2">
-            Link 2
+            Link 223423 
           </a>
-          <a className="hide-800" href="/#link3">
-            Link 3
-          </a>
+          
           <a className="hide-800" href="/#link4">
-            Link 4
+            Link 423423
           </a>
           <div className="social-icons hide-800">
-            <img className="nav-social" src="/icons/twitter.svg" alt="" />
             <img className="nav-social" src="/icons/discord.svg" alt="" />
+            <a href="https://explorer.solana.com/address/5eyY7HRLQcUkJUmiH4m4g6C2efbNrEGSkWcmEheRNSnG?cluster=devnet">
+            </a>
           </div>
         </div>
       </nav>
@@ -123,11 +118,7 @@ const App = () => {
               <h3 className="text-secondary-color">Welcome To</h3>
               <h1 className="pb-3">The Boiler Plate</h1>
               <p className="text-secondary-color">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                scelerisque ipsum non est porta mollis. Donec sapien sapien, dictum
-                eget enim sed, hendrerit semper orci. Donec ante magna, consequat at
-                eros ac, eleifend dictum sem. Nam vitae condimentum lorem.
-                Vestibulum molestie dui turpis, tincidunt porta sem congue nec.
+                Welcome to the Boiler Plate
               </p>
             </div>
             <div>
@@ -168,18 +159,14 @@ const App = () => {
             nisi.
           </div>
 
-          <div id="link3" className="container card">
-            <h1 className="pb-3">Lorem ipsum</h1>
-          </div>
+          
 
           <div id="link4" className="container faq">
-            <h1 style={{ padding: "0 0 24px 0" }}>FAQ</h1>
+            <h1 style={{ padding: "0 0 24px 0" }}>FAQQQQ</h1>
             <div>
-              <h4>Lorem ipsum?</h4>
+              <h4>Question 1</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                id metus id mauris tincidunt posuere. Vivamus neque odio, imperdiet
-                vitae.
+                Blah 1
               </p>
 
               <hr />
