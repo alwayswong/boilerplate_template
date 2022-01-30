@@ -84,7 +84,7 @@ const App = () => {
           <li>
             <div className="social-icons">
               
-              <img className="nav-social" src="/icons/discord.svg" alt="twitter.com" />
+              <img className="nav-social" src="/icons/twitter.svg" alt="twitter.com" />
             </div>
           </li>
         </ul>
@@ -106,8 +106,8 @@ const App = () => {
             Link 423423
           </a>
           <div className="social-icons hide-800">
-            <img className="nav-social" src="/icons/discord.svg" alt="" />
-            <a href="https://explorer.solana.com/address/5eyY7HRLQcUkJUmiH4m4g6C2efbNrEGSkWcmEheRNSnG?cluster=devnet">
+            <a href="https://twitter.com/SolanaEyesNFT">
+              <img className="nav-social" src="/icons/twitter.svg" alt="" />
             </a>
           </div>
         </div>
