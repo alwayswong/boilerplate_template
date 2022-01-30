@@ -118,17 +118,3 @@ For more advaned users head over to app.css
 - Added a few more user settings.
 
 - Restyled The Mint UI box.
----
-cd <localdir>
-git init
-git add .
-git commit -m 'message'
-git remote add origin <url>
-git push -u origin master
-
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/alwayswong/boilerplate_template.git
-git push -u origin main
