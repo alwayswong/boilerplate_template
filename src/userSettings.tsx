@@ -52,16 +52,16 @@ export const welcomeSettings: WelcomeSettings = {
 
   //Title and Description
   title: "Welcome!",
-  desc: "Connect your wallet and load in! Whitelist mint starts soon!",
+  desc: "Connect your wallet and load in! Public mint starts soon!",
 
   // Countdown Timer
-  countdownEnable: false,
-  countdownTo: date("2 Jan 2022 00:00:00 GMT"),
+  countdownEnable: true,
+  countdownTo: date("6 Feb 2022 10:00:00 PST"),
   //Example date below
   // date('29 2021 00:00:00 GMT')
 
   // showprice
-  showPrice: false,
+  showPrice: true,
 
   //Enable Custom HTML
   enableCustomHTML: false,
@@ -138,7 +138,7 @@ export class MintWhitelistCustomHTML extends React.Component {
 export const publicSaleSettings: PublicSaleSettings = {
   //start date and end date must match your Candy Machine Config for public launch!
 
-  startDate: date("25 Jan 2022 07:00:00 PST"),
+  startDate: date("6 Feb 2022 10:00:00 PST"),
   endDate: undefined,
   countdown: false,
   //Example date below
