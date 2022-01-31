@@ -70,11 +70,11 @@ const App = () => {
               A
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="/#link2" onClick={toggleMenu}>
               B
             </a>
-          </li>
+          </li> */}
           
           <li>
             <a href="/#link4" onClick={toggleMenu}>
@@ -94,16 +94,16 @@ const App = () => {
       </div>
       <nav>
         <div className="nav-container">
-          <img className="nav-logo" src="/img/logo.png" alt="" />
+          <img className="nav-logo" src="/img/logo_gif.gif" alt="" />
           <a className="hide-800" href="/#link1">
-            Linky 1
+            Mint
           </a>
-          <a className="hide-800" href="/#link2">
-            Link 223423 
-          </a>
+          {/* <a className="hide-800" href="/#link2">
+            About Sol Eyes
+          </a> */}
           
           <a className="hide-800" href="/#link4">
-            Link 423423
+            About Sol Eyes
           </a>
           <div className="social-icons hide-800">
             <a href="https://twitter.com/SolanaEyesNFT">
@@ -116,9 +116,9 @@ const App = () => {
           <header className="card" id="link1">
             <div style={{ padding: "0 24px 0 24px 0" }}>
               <h3 className="text-secondary-color">Welcome To</h3>
-              <h1 className="pb-3">The Boiler Plate</h1>
+              <h1 className="pb-3">Sol Eyes</h1>
               <p className="text-secondary-color">
-                Welcome to the Boiler Plate
+              Your view of the metaverse 0_0
               </p>
             </div>
             <div>
@@ -143,52 +143,54 @@ const App = () => {
             </div>
           </header>
 
-          <div id="link2" className="container">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac velit
-            aliquet, semper sapien sed, ornare augue. Phasellus sed velit interdum,
-            sagittis metus quis, facilisis lectus. Cras sollicitudin purus at magna
-            eleifend maximus. Nulla nec nulla in nunc maximus viverra in at mauris.
-            Fusce sodales dolor nisi, et vehicula orci porta id. In placerat nunc
-            sed erat lacinia tincidunt. Interdum et malesuada fames ac ante ipsum
-            primis in faucibus. Vestibulum commodo eget metus vitae tempus. Aliquam
-            pharetra mi at efficitur accumsan. Curabitur venenatis libero a ex
-            porttitor, at auctor turpis hendrerit. Nam commodo, risus non consequat
-            pretium, erat ante auctor purus, a cursus dolor erat at velit. Maecenas
-            dignissim, dolor sed laoreet aliquam, tortor lacus faucibus urna, eget
-            mattis massa sem ac dui. Nam semper hendrerit interdum. Etiam at dictum
-            nisi.
-          </div>
+          {/* <div id="link2" className="container">
+            Sol Eyes 
+          </div> */}
 
           
 
           <div id="link4" className="container faq">
-            <h1 style={{ padding: "0 0 24px 0" }}>FAQQQQ</h1>
+            <h1 style={{ padding: "0 0 24px 0" }}>FAQ</h1>
             <div>
-              <h4>Question 1</h4>
+              <h4>1. What are Sol Eyes?</h4>
               <p>
-                Blah 1
+                Sol Eyes are a generative art collection of 222 on the Solana blockchain. Mint price 0.22 Sol.
               </p>
 
               <hr />
             </div>
 
             <div>
-              <h4>Lorem ipsum?</h4>
+              <h4>2. Why Eyes?</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                id metus id mauris tincidunt posuere. Vivamus neque odio, imperdiet
-                vitae.
+                Eyes are how we experience the MEATverse. Sol Eyes are how we experience the METAverse. Sol Eyes are the genesis collection for a series of generative art projects. Our vision is to be a platform for generative artists to showcase their work on the Solana blockchain.
               </p>
 
               <hr />
             </div>
 
             <div>
-              <h4>Lorem ipsum?</h4>
+              <h4>3. Roadmap?</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                id metus id mauris tincidunt posuere. Vivamus neque odio, imperdiet
-                vitae.
+                Art only. Vibes only. Or??
+              </p>
+
+              <hr />
+            </div>
+
+            <div>
+              <h4>4. Team?</h4>
+              <p>
+                Banksy? Zuck? Shkreli?
+              </p>
+
+              <hr />
+            </div>
+
+            <div>
+              <h4>5. GM?</h4>
+              <p>
+                GM.
               </p>
 
               <hr />
